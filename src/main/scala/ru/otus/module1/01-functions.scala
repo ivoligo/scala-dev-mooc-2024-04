@@ -55,9 +55,8 @@ object functions {
    */
 
   def isEven(x:Int): Boolean = if (x % 2 == 0) true else false
+  // val isEven: Int => Boolean = x => if (x % 2 == 0) true else false
 
-  // почему не дает написать через val (подчеркивает параметр x)
-  // val isEven: Int => Boolean = if (x % 2 == 0) true else false
   /**
    * Задание 2. Написать ф-цию метод isOdd, которая будет вычислять является ли число нечетным
    */
